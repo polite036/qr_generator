@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #262a2f; /* Dark background */
+    background: #262a2f; 
 }
 
 .container {
@@ -62,15 +62,12 @@ body {
     width: 100%;
     padding: 10px;
 }
-
-/* This class is added via JavaScript to reveal the QR code */
 #imgBox.show-img {
     max-height: 300px;
     margin: 10px auto;
     border: 1px solid #d3d3d3;
 }
 
-/* Error Shake Animation */
 .error {
     animation: shake 0.1s linear 10;
 }
